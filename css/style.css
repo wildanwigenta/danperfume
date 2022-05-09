@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat Alternates', sans-serif;;
+}
+body {
+    background:#ecffff;
+}
+a {
+    color:inherit;
+    text-decoration: none;
+}
+#bglogin {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.gif{
+    width: 400px;
+}
+.ngif{
+    width: 215px;
+    margin-bottom: -20px;
+    margin-top: -20px;
+}
+.boxlogin {
+    width: 300px;
+    min-height: 200px;
+    border: 1px solid #6e7a7a;
+    background-color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.boxlogin h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.inputcontrol {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+.btn {
+    padding: 8px 15px;
+    background-color: #008080;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.btn-primary{
+    padding: 8px 15px;
+    background-color: #00c040;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.btn-secondary{
+    padding: 8px 15px;
+    background-color: #118f8f;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+header {
+    background-color: 	#008080;
+    color: #fff;
+}
+header h1 {
+    float: left;
+    padding: 10px 0;
+}
+header ul {
+    float: right;
+}
+header ul li {
+    display: inline-block;
+}
+header ul li a {
+    padding: 20px 0 20px 15px;
+    display: inline-block;
+}
+footer{
+    padding: 25px 0;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.container:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.section {
+    padding: 25px 0;
+    
+}
+.box {
+    background-color: #b3dbdbcc;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 10px 0 25px 0;
+}
+.boxpr {
+    border: 5px solid #b3dbdbcc;
+    background-color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 10px 0 25px 0;
+}
+.box:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.boxpr:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+thead{
+    background-color: #4fb3b3;
+    color:#fff;
+}
+tbody{
+    background-color: #fff;
+}
+tfoot{
+    background-color: #fff;
+    color: #1a119e;
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.table tr {
+    height: 30px;
+}
+.table tr td {
+    padding: 5px 10px;
+}
+
+
+
+.search{
+    padding: 15px 0;
+    background-color: #b3dbdbcc;
+    text-align: center;
+}
+.search input[type=text]{
+    width: 60%;
+    padding: 10px;
+}
+.search input[type=submit]{
+    padding: 12px 15px;
+    background-color: #008080;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.col-5{
+    width: 20%;
+    height: 100px;
+    text-align: center;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.col-5 p{
+    color: #008080;
+}
+.col-4{
+    width: 24%;
+    background-color: #caeef0;
+    height: 320px;
+    /* border: 3px solid rgb(106, 221, 77); */
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+.col-4:hover{
+    box-shadow: 0 0 10px rgb(88, 187, 204);
+}
+.col-4 img {
+    width: 100%;
+}
+.col-4 .nama {
+    color: #666;
+    margin-bottom: 5px;
+}
+.col-4 .harga {
+    font-weight: bold;
+    color: #3728b9;
+}
+.col-4 .btnbuy {
+    padding: 4px 10px;
+    background-color: #008080;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    float: right;
+}
+.col-4 .btnbuy:hover {
+    background-color: #3728b9 ;
+}
+.footer {
+    padding: 25px 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+.footer p{
+    margin-bottom: 10px;
+}
+.footer small{
+    margin-top: 25px;
+    display: inline-block;
+}
+.col-2 {
+    width: 50%;
+    min-height: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+}
+.col-2 h3{
+    margin-bottom: 10px;
+}
+.col-2 h4{
+    color: #3728b9;
+}
+.col-2 p{
+    margin: 15px 0;
+    text-align: justify;
+    line-height: 25px;
+    font-size: 14px ;
+}
+.pur{
+    padding: 8px 18px;
+    width: 30%;
+    background-color: #ffffff;    
+}
+.purc{
+    color: #3728b9;
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        width: 90%;
+    }
+    .table {
+        width: 10%;
+        border-collapse: collapse;
+    }
+    .col-5{
+        width: 50%;
+        margin-bottom: 10px;
+    }
+    .col-4{
+        width: 50%;
+        height: 300px;
+    }
+    .col-2{
+        width: 100%;
+    }
+}
+                  
