@@ -86,13 +86,13 @@
                                 <p class="harga">Rp. <?php echo number_format($p ['product_price']); ?></p>                                                      
                         </div>
                     </a>
-                <?php 
+                <?php
                     }}
                     else{
                 ?>
                         <p>data produk tidak ada</p>
                 <?php 
-                    }               
+                    }
                 ?>
             </div>
         </div>

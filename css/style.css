@@ -242,7 +242,8 @@ tfoot{
 .pur{
     padding: 8px 18px;
     width: 30%;
-    background-color: #ffffff;    
+    background-color: #51e25d;
+    color: #fff;    
 }
 .purc{
     color: #3728b9;
@@ -252,8 +253,11 @@ tfoot{
     .container{
         width: 90%;
     }
+    .boxpr{
+        width: 100%;
+    }
     .table {
-        width: 10%;
+        width: 100%;
         border-collapse: collapse;
     }
     .col-5{
@@ -261,11 +265,14 @@ tfoot{
         margin-bottom: 10px;
     }
     .col-4{
-        width: 50%;
-        height: 300px;
+        width: 47%;
+        height: 290px;
     }
     .col-2{
         width: 100%;
+    }
+    .pur{
+        width:auto;
     }
 }
                   
