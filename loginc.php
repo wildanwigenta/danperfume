@@ -30,7 +30,7 @@
             $_SESSION['status_loginc'] = true;
             $_SESSION['c_global'] = $d;
             $_SESSION['id'] = $d->customer_id;
-            echo'<script>window.location="checkout.php"</script>';
+            echo'<script>window.location="keranjang.php"</script>';
         }
         else{
             echo'<script>alert("username/password salah!")</script>';
