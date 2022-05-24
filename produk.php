@@ -74,18 +74,10 @@
     </div>
 
                 <!-- footer -->
-    <div class="footer">
-        <div class="container">
-            <h5>Alamat</h5>
-            <p><?php echo $a->admin_address; ?></p>
-
-            <h5>Email</h5>
-            <p><?php echo $a->admin_email; ?></p>
-
-            <h5>No. Hp </h5>
-            <p><?php echo $a->admin_telp; ?></p>
+                <footer>
+        <div class="container">      
             <small>Copyright &copy; 2022 - Danperfume.</small>
         </div>
-    </div>
+    </footer>
 </body>
 </html>
