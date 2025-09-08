@@ -67,7 +67,6 @@
             </div>
         </div>
     </div>
-
                 <!-- new product -->
     <div class="section">
         <div class="container">
