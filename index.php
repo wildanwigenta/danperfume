@@ -96,8 +96,7 @@
             </div>
         </div>
     </div>
-
-                <!-- footer -->
+  <!-- footer -->
     <div class="footer">
         <div class="container">
             <h5>Alamat</h5>
